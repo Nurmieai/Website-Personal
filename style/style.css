@@ -1,66 +1,66 @@
-html {
-    box-sizing: border-box;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  height: 100vh;
 }
 
-.container{
-    height: 100vh;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 100vh;
+.four {
+  align-items: center;
+  height: 100vh;
+  
 }
 
-.container > div{
-    left: 0;
-    position: relative;
-    right: 0;
-    top: 20vh;
+.container > div {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 20vh;
 }
 
-.one{
-    font-size: 4.5rem;
+.one {
+  font-size: 4.5rem;
 }
 
-.two{
-    font-size: 1.2rem;
-    font-weight: lighter; 
+.two {
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 .three {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* Four */
 .textbox {
-    border: 3px solid #aaa;
-    border-radius: 5px;
-    margin: 0 auto;
-    padding: 1rem;
-    position: relative;
-    width: 600px;
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  width: 50%;
 }
 
 .textbox__chat {
-    margin: 0;
-    text-align: justify;
+  margin: 0;
+  text-align: justify;
 }
 
 .textbox__chat span {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .fake__button {
-    background-color: rgb(21, 161, 237);
-    border-radius: 3px;
-    bottom: -50px;
-    color: #fff;
-    padding: .5rem 1rem;
-    position: absolute;
-    right: 5px;
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  right: 5px;
 }
